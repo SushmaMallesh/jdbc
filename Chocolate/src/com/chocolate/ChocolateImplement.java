@@ -88,11 +88,11 @@ public class ChocolateImplement implements ChocolateD{
 		//DriverManager.registerDriver(mysqlDriver);
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
-		Connection connection =DriverManager.getConnection(url,userName,password);
-		System.out.println("connection is succeed "+url+" " +password);
-		Statement statement=connection.createStatement();
-		ResultSet resultSet=statement.executeQuery(read); //by deafault it will be pointed to col
-		resultSet.next();
+		 Connection connection =DriverManager.getConnection(url,userName,password);
+		 System.out.println("connection is succeed "+url+" " +password);
+		 Statement statement=connection.createStatement();
+		 ResultSet resultSet=statement.executeQuery(read); //by deafault it will be pointed to col
+		 resultSet.next();
 	     System.out.println("id"+":-"+resultSet.getInt(1));
 	     System.out.println("name"+":-"+resultSet.getString(2));
 		 System.out.println("since"+":-"+resultSet.getString(3));
