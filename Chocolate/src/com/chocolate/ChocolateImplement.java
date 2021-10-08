@@ -93,12 +93,12 @@ public class ChocolateImplement implements ChocolateD{
 		 Statement statement=connection.createStatement();
 		 ResultSet resultSet=statement.executeQuery(read); //by deafault it will be pointed to col
 		 resultSet.next();
-	     System.out.println("id"+":-"+resultSet.getInt(1));
-	     System.out.println("name"+":-"+resultSet.getString(2));
-		 System.out.println("since"+":-"+resultSet.getString(3));
-		 System.out.println("location"+":-"+resultSet.getString(4));
-		 System.out.println("contact"+":-"+resultSet.getInt(5));
-		 System.out.println("review"+":-"+resultSet.getString(6));
+	      System.out.println("id"+":-"+resultSet.getInt(1));
+	      System.out.println("name"+":-"+resultSet.getString(2));
+		  System.out.println("since"+":-"+resultSet.getString(3));
+		  System.out.println("location"+":-"+resultSet.getString(4));
+		  System.out.println("contact"+":-"+resultSet.getInt(5));
+		  System.out.println("review"+":-"+resultSet.getString(6));
 		
 		}
 		catch(SQLException sqlException){
