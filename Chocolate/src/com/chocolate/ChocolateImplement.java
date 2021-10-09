@@ -220,7 +220,7 @@ public class ChocolateImplement implements ChocolateD{
 		Connection connection =DriverManager.getConnection(url,userName,password);
 		System.out.println("connection is succeed "+url+" " +password);
 	    Statement statement=connection.createStatement();
-		System.out.println("------------------------------------readby review--------------------");
+		System.out.println("------------------------------------readbyreview--------------------");
 
 		ResultSet resultSet=statement.executeQuery(readbyREVIEW); 
 		//boolean isRowPresent=resultSet.next();
