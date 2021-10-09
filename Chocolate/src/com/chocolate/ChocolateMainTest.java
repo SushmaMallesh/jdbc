@@ -8,5 +8,8 @@ public static void main(String args[]) {
 	ch.update();
 	ch.read();
 	ch.readAll();
+	ch.readbyID();
+	ch.readbyREVIEW();
+	ch.readybyNAME();
 }
 }

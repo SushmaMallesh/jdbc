@@ -6,4 +6,7 @@ public interface ChocolateD {
 	void update();
 	void read();
 	void readAll();
+	void readbyID();
+	void readbyREVIEW();
+	void readybyNAME();
 }
